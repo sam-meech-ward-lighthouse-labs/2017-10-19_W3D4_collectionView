@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZooCollectionViewLayout.h
 //  BabyAnimals
 //
 //  Created by Sam Meech-Ward on 2017-10-19.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UICollectionViewDataSource>
-
+/// Because animals in the zoo are in cells
+@interface ZooCollectionViewLayout : UICollectionViewFlowLayout
 
 @end
-

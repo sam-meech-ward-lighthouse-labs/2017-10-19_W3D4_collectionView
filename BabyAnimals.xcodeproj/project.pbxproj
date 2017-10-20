@@ -14,6 +14,9 @@
 		2216A3151F9904F000F2D360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2216A3131F9904F000F2D360 /* LaunchScreen.storyboard */; };
 		2216A3181F9904F000F2D360 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216A3171F9904F000F2D360 /* main.m */; };
 		2216A3221F9904F000F2D360 /* BabyAnimalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216A3211F9904F000F2D360 /* BabyAnimalsTests.m */; };
+		2216A32E1F99065A00F2D360 /* BabyAnimalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216A32D1F99065A00F2D360 /* BabyAnimalCollectionViewCell.m */; };
+		2216A3311F9909D600F2D360 /* BabyAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216A3301F9909D600F2D360 /* BabyAnimal.m */; };
+		2216A3341F99139000F2D360 /* ZooCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216A3331F99139000F2D360 /* ZooCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		2216A31D1F9904F000F2D360 /* BabyAnimalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyAnimalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2216A3211F9904F000F2D360 /* BabyAnimalsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyAnimalsTests.m; sourceTree = "<group>"; };
 		2216A3231F9904F000F2D360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2216A32C1F99065A00F2D360 /* BabyAnimalCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyAnimalCollectionViewCell.h; sourceTree = "<group>"; };
+		2216A32D1F99065A00F2D360 /* BabyAnimalCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyAnimalCollectionViewCell.m; sourceTree = "<group>"; };
+		2216A32F1F9909D600F2D360 /* BabyAnimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyAnimal.h; sourceTree = "<group>"; };
+		2216A3301F9909D600F2D360 /* BabyAnimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyAnimal.m; sourceTree = "<group>"; };
+		2216A3321F99139000F2D360 /* ZooCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZooCollectionViewLayout.h; sourceTree = "<group>"; };
+		2216A3331F99139000F2D360 /* ZooCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				2216A3091F9904F000F2D360 /* AppDelegate.m */,
 				2216A30B1F9904F000F2D360 /* ViewController.h */,
 				2216A30C1F9904F000F2D360 /* ViewController.m */,
+				2216A3321F99139000F2D360 /* ZooCollectionViewLayout.h */,
+				2216A3331F99139000F2D360 /* ZooCollectionViewLayout.m */,
+				2216A32C1F99065A00F2D360 /* BabyAnimalCollectionViewCell.h */,
+				2216A32D1F99065A00F2D360 /* BabyAnimalCollectionViewCell.m */,
+				2216A32F1F9909D600F2D360 /* BabyAnimal.h */,
+				2216A3301F9909D600F2D360 /* BabyAnimal.m */,
 				2216A30E1F9904F000F2D360 /* Main.storyboard */,
 				2216A3111F9904F000F2D360 /* Assets.xcassets */,
 				2216A3131F9904F000F2D360 /* LaunchScreen.storyboard */,
@@ -205,9 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2216A3311F9909D600F2D360 /* BabyAnimal.m in Sources */,
+				2216A32E1F99065A00F2D360 /* BabyAnimalCollectionViewCell.m in Sources */,
 				2216A30D1F9904F000F2D360 /* ViewController.m in Sources */,
 				2216A3181F9904F000F2D360 /* main.m in Sources */,
 				2216A30A1F9904F000F2D360 /* AppDelegate.m in Sources */,
+				2216A3341F99139000F2D360 /* ZooCollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
